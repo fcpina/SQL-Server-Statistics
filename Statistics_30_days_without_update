@@ -1,6 +1,8 @@
-/* 
-	Statistic with more than 30 days without update
-*/
+-- ============================================================
+-- Created by: Filipe Pina
+-- Statistic with more than 30 days without update
+-- ============================================================
+
 
 SELECT 
 	OBJECT_NAME(S.object_id)  [Table  Name],     -- Table Name
